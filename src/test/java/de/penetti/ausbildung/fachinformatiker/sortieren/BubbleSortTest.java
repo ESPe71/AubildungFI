@@ -11,6 +11,7 @@ import static java.time.ZoneOffset.UTC;
 import static org.junit.jupiter.api.Assertions.*;
 
 class BubbleSortTest {
+  private static final int[] EXPECTED = new int[]{6, 12, 18, 42, 44, 55, 67, 94};
 
   static int[][] testBubbleSort() {
     return new int[][] {{12, 18, 42, 44, 55, 67, 94,  6},
@@ -36,7 +37,7 @@ class BubbleSortTest {
 
     int[] sorted = BubbleSort.sort(toSort);
 
-    assertArrayEquals(new int[]{6, 12, 18, 42, 44, 55, 67, 94}, sorted);
+    assertArrayEquals(EXPECTED, sorted);
   }
 
   @ParameterizedTest
@@ -56,7 +57,7 @@ class BubbleSortTest {
 
     int[] sorted = BubbleSort.sort2(toSort);
 
-    assertArrayEquals(new int[]{6, 12, 18, 42, 44, 55, 67, 94}, sorted);
+    assertArrayEquals(EXPECTED, sorted);
   }
 
   @ParameterizedTest
