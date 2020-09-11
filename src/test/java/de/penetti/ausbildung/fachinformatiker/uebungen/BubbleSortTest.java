@@ -1,4 +1,4 @@
-package de.penetti.ausbildung.fachinformatiker.sortieren;
+package de.penetti.ausbildung.fachinformatiker.uebungen;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
