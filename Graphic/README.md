@@ -1,10 +1,10 @@
-## Projekt _**Graphic**_ zur Einführung in OOP
+# Projekt _**Graphic**_ zur Einführung in OOP
 
 Wir werden nun ein Projekt anfangen, welches wir sukzessive alle drei parallel entwickeln und dabei verschiedene Techniken der Entwicklung von Software nutzen.
 
 Die meiste Zeit werdet ihr selbständig das Projekt entwickeln.
 
-### Wiederholung
+## Wiederholung
 
 Der Heutige Schwerpunkt ist die Wiederholung OOP.
 
@@ -31,7 +31,7 @@ Einen guten Einstieg zeigt die Seite https://www.philipphauer.de/study/se/design
 
 Ein gutes Buch zu Design Pattern, bzw. DAS BUCH ist von der Gang of four (Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides) mit dem Titel Design Pattern. Dies gibt es auch in einer Deutschen Übersetzung und heißt Entwurfsmuster. (https://de.wikipedia.org/wiki/Entwurfsmuster_(Buch))
 
-### Tag 1
+## Tag 1
 
 heute wird jeder selbstständig eine Klassenstruktur für primitive Grafikelemente entwerfen. Dabei wollen wir vorerst die Primitiven Punkt, Linie, Ellipse und Rechteck mit den entsprechenden Member und Zugriffsmethoden entwickeln.
 
@@ -56,9 +56,10 @@ Der Schwerpunkt soll hier auf Schnittstellen, Klassen und deren Konstruktoren, M
 Gegen 8:45 würde ich mich gern mit euch unter https://meet.jit.si/FIAE unterhalten und die Aufgaben besprechen.
 
 
-### Tag 2
+## Tag 2
 
 - Git
+  - [Git Anwendungshandbuch](https://git-scm.com/book/de/v2)
   - commit und push
   - Tag erstellen
   - Projekt clonen
