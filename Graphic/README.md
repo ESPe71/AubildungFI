@@ -4,6 +4,18 @@ Wir werden nun ein Projekt anfangen, welches wir sukzessive alle drei parallel e
 
 Die meiste Zeit werdet ihr selbständig das Projekt entwickeln.
 
+## Referenzen
+Standardwerke für die Javaentwicklung
+- [Java ist auch eine Insel](https://amzn.to/3bBG7vt) ([Web-Version](http://openbook.rheinwerk-verlag.de/javainsel/))
+- [Effective Java](https://amzn.to/2XyfEH4) ([Deutsche Ausgabe](https://amzn.to/38Dr6HK))
+- [Clean Code](https://amzn.to/2P85FVA) ([Deutsche Ausgabe](https://amzn.to/2Xzdnvp))
+- [Design Pattern](https://amzn.to/2LjTqGv) der Gang of four ([Deutsche Ausgabe](https://amzn.to/2XB0UqT))
+
+Dokumentation
+- [Git Anwendungshandbuch](https://git-scm.com/book/de/v2)
+- [JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/)
+- [Studienprojekt Design Pattern](https://www.philipphauer.de/study/se/design-pattern.php)
+
 ## Wiederholung
 
 Der Heutige Schwerpunkt ist die Wiederholung OOP.
@@ -69,6 +81,7 @@ Gegen 8:45 würde ich mich gern mit euch unter https://meet.jit.si/FIAE unterhal
 
 ![Observer](images/observer-pattern.png "UML-Diagramm Observer")
 - Nutzung von JUnit
+  - [JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/)
 
 
 
