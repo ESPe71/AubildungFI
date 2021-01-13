@@ -64,18 +64,8 @@ class DrawingTest {
   @Test
   void testObservable() {
     int[] counter = {0, 0};
-    Observer o0 = new Observer() {
-      @Override
-      public void update(Observable observable) {
-        counter[0]++;
-      }
-    };
-    Observer o1 = new Observer() {
-      @Override
-      public void update(Observable observable) {
-        counter[1]++;
-      }
-    };
+    Observer o0 = observable -> counter[0]++;
+    Observer o1 = observable -> counter[1]++;
 
     drawing.addObserver(o0);
     drawing.add(new Vector());
