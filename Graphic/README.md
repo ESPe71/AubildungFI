@@ -66,6 +66,8 @@ Gegen 8:45 würde ich mich gern mit euch unter https://meet.jit.si/FIAE unterhal
 - Diskussion des gestrigen Tages
 - Observer Pattern
 - Verwendung des Observer Pattern in unserer Zeichnung
+
+![Observer](images/observer-pattern.png "UML-Diagramm Observer")
 - Nutzung von JUnit
 
 
