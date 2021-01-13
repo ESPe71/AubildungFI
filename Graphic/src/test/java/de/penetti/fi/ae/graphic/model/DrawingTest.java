@@ -86,5 +86,11 @@ class DrawingTest {
 
     assertEquals(3, counter[0]);
     assertEquals(2, counter[1]);
+
+    drawing.removeObserver(o0);
+    drawing.remove(0);
+
+    assertEquals(3, counter[0]);
+    assertEquals(3, counter[1]);
   }
 }
