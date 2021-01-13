@@ -38,7 +38,8 @@ public class Vector implements Primitive {
     if (this == o) return true;
     if (o == null || getClass() != o.getClass()) return false;
     Vector vector = (Vector) o;
-    return Double.compare(vector.x, x) == 0 && Double.compare(vector.y, y) == 0;
+    return Double.compare(vector.x, x) == 0 &&
+           Double.compare(vector.y, y) == 0;
   }
 
   @Override

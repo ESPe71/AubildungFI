@@ -6,27 +6,27 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Drawing {
-  private List<Primitive> primitive = new ArrayList<>();
+  private List<Primitive> primitives = new ArrayList<>();
 
   public int size() {
-    return primitive.size();
+    return primitives.size();
   }
 
   public Primitive get(int index) {
-    return primitive.get(index);
+    return primitives.get(index);
   }
 
   public void add(Primitive primitive) {
-    this.primitive.add(primitive);
+    this.primitives.add(primitive);
   }
 
-  public void remove(Primitive primitive) {
-    this.primitive.remove(primitive);
+  public boolean remove(Primitive primitive) {
+    return this.primitives.remove(primitive);
   }
 
   public void remove(int index) {
-    if(index < size()) {
-      this.primitive.remove(index);
+    if(index >= 0 && index < size()) {
+      this.primitives.remove(index);
     }
   }
 }

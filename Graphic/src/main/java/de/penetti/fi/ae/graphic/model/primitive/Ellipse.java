@@ -64,16 +64,19 @@ public class Ellipse implements Primitive {
     if (this == o) return true;
     if (o == null || getClass() != o.getClass()) return false;
     Ellipse ellipse = (Ellipse) o;
-    return Double.compare(ellipse.xRadius, xRadius) == 0 && Double.compare(ellipse.yRadius, yRadius) == 0 && Objects.equals(center, ellipse.center);
+    return Double.compare(ellipse.xRadius, xRadius) == 0 &&
+           Double.compare(ellipse.yRadius, yRadius) == 0 &&
+           Double.compare(ellipse.angle, angle) == 0 &&
+           Objects.equals(center, ellipse.center);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(center, xRadius, yRadius);
+    return Objects.hash(center, xRadius, yRadius, angle);
   }
 
   @Override
   public String toString() {
-    return "Ellipse[(" + center.getX() + ", " + center.getY() + "), (" + xRadius + ", " + yRadius + ")]";
+    return "Ellipse[(" + center.getX() + ", " + center.getY() + "), (" + xRadius + ", " + yRadius + "), " + angle + "]";
   }
 }

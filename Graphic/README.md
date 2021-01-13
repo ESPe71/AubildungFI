@@ -63,7 +63,7 @@ Gegen 8:45 würde ich mich gern mit euch unter https://meet.jit.si/FIAE unterhal
   - commit und push
   - Tag erstellen
   - Projekt clonen
-- Diskusion des gestrigen Tages
+- Diskussion des gestrigen Tages
 - Observer Pattern
 - Verwendung des Observer Pattern in unserer Zeichnung
 - Nutzung von JUnit

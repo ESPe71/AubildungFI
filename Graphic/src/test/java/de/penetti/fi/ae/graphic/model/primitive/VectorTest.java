@@ -6,6 +6,7 @@ import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.stream.Stream;
+import java.util.zip.DeflaterOutputStream;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
@@ -52,7 +53,9 @@ class VectorTest {
         arguments(1, 1.0),
         arguments(-1, -23.0),
         arguments(56482, -984736.564),
-        arguments(-5876, 98675)
+        arguments(-5876, 98675),
+        arguments(-10, -10),
+        arguments(Double.MAX_VALUE, Double.MIN_VALUE)
     );
   }
   static Stream<Arguments> testCopyConstructor() {
