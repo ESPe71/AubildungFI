@@ -108,7 +108,7 @@ class DrawingTest {
     drawing.add(v1);
     drawing.remove(v0);
 
-    assertFalse(v0 == drawing.get(0));
-    assertTrue(v1 == drawing.get(0));
+    assertNotSame(v0, drawing.get(0));
+    assertSame(v1, drawing.get(0));
   }
 }
