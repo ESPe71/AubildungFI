@@ -47,23 +47,11 @@ Ein gutes Buch zu Design Pattern, bzw. DAS BUCH ist von der Gang of four (Erich 
 
 heute wird jeder selbstständig eine Klassenstruktur für primitive Grafikelemente entwerfen. Dabei wollen wir vorerst die Primitiven Punkt, Linie, Ellipse und Rechteck mit den entsprechenden Member und Zugriffsmethoden entwickeln.
 
- 
-
 Anschließend entwirft jeder selbstständig eine Klasse, die Instanzen dieser Primitiven zu einer Zeichnung zusammenfasst. Diese Zeichnung benötigt natürlich auch sinnvolle Member und Methoden.
-
- 
 
 Außerdem ist mit Tests sicherzustellen, dass die Methoden der neu entworfenen Klassen so arbeiten, wie wir es uns vorstellen.
 
- 
-
- 
-
 Der Schwerpunkt soll hier auf Schnittstellen, Klassen und deren Konstruktoren, Member und Methoden liegen. Außerdem wird die Collection-API eine Rolle spielen und einfache JUnit-Tests müssen erstellt werden.
-
- 
-
- 
 
 Gegen 8:45 würde ich mich gern mit euch unter https://meet.jit.si/FIAE unterhalten und die Aufgaben besprechen.
 
@@ -86,4 +74,7 @@ Gegen 8:45 würde ich mich gern mit euch unter https://meet.jit.si/FIAE unterhal
   - [JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/)
 
 
+## Tag 3
 
+- Diskussion und Verfeinerung des implementierten Observer Patterns unserer Zeichnung
+- Wiederholung der Woche
