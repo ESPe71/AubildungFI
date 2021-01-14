@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-public class Drawing implements Observable {
+public class Drawing implements GraphicObservable {
   private final List<Primitive> primitives = new ArrayList<>();
-  private Collection<Observer> observers;
+  private Collection<GraphicObserver> observers;
 
   public int size() {
     return primitives.size();
@@ -19,27 +19,31 @@ public class Drawing implements Observable {
   }
 
   public void add(Primitive primitive) {
-    this.primitives.add(primitive);
-    notifyObserver();
+    if(primitive != null) {
+      this.primitives.add(primitive);
+      notifyObserver("add", null, primitive);
+    }
   }
 
-  public boolean remove(Primitive primitive) {
-    boolean b = this.primitives.remove(primitive);
-    if(b) {
-      notifyObserver();
+  public void remove(Primitive primitive) {
+    for(int i = 0; i < primitives.size(); i++) {
+      // equals könnte ein falsches Primitive finden, deshalb wird mit == verglichen
+      if(primitive == primitives.get(i)) {
+        remove(i);
+        break;
+      }
     }
-    return b;
   }
 
   public void remove(int index) {
     if(index >= 0 && index < size()) {
-      this.primitives.remove(index);
-      notifyObserver();
+      Primitive primitive = this.primitives.remove(index);
+      notifyObserver("remove", primitive, null);
     }
   }
 
   @Override
-  public void addObserver(Observer observer) {
+  public void addObserver(GraphicObserver observer) {
     if(observers == null) {
       observers = new ArrayList<>();
     }
@@ -49,15 +53,15 @@ public class Drawing implements Observable {
   }
 
   @Override
-  public void removeObserver(Observer observer) {
+  public void removeObserver(GraphicObserver observer) {
     if(observers != null) {
       observers.remove(observer);
     }
   }
 
-  private void notifyObserver() {
+  private void notifyObserver(String action, Object oldValue, Object newValue) {
     if(observers != null) {
-      observers.forEach(observer -> observer.update(this));
+      observers.forEach(observer -> observer.update(this, action, oldValue, newValue));
     }
   }
 }

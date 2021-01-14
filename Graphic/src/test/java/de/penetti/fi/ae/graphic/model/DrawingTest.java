@@ -63,11 +63,18 @@ class DrawingTest {
 
   @Test
   void testObservable() {
-    int[] counter = {0, 0};
-    Observer o0 = observable -> counter[0]++;
-    Observer o1 = observable -> counter[1]++;
+    int[] counter = {0, 0, 0};
+    GraphicObserver o0 = (observable, action, oldValue, newValue) -> counter[0]++;
+    GraphicObserver o1 = (observable, action, oldValue, newValue) -> counter[1]++;
+    GraphicObserver o2 = (observable, action, oldValue, newValue) -> {
+      switch (action) {
+        case "add" -> counter[2]++;
+        case "remove" -> counter[2]--;
+      }
+    };
 
     drawing.addObserver(o0);
+    drawing.addObserver(o2);
     drawing.add(new Vector());
 
     drawing.addObserver(o1);
@@ -76,11 +83,32 @@ class DrawingTest {
 
     assertEquals(3, counter[0]);
     assertEquals(2, counter[1]);
+    assertEquals(1, counter[2]);
 
     drawing.removeObserver(o0);
     drawing.remove(0);
 
     assertEquals(3, counter[0]);
     assertEquals(3, counter[1]);
+    assertEquals(0, counter[2]);
+  }
+
+  @Test
+  void listTest() {
+    Vector v0 = new Vector();
+    Vector v1 = new Vector();
+
+    // für die equals-Methode sind v0 und v1 gleich,
+    // deshalb darf die equals-Methode im remove von Drawing nicht verwendet werden,
+    // sondern es muss mit == gearbeitet werden um tatsächlich das konkrete Primitive zu finden.
+    // ALSO: in remove(Primitive) darf nicht die Methode List.remove(Object) verwendet werden,
+    //       da sonst auch ein falsches Primitive gelöscht werden könnte
+
+    drawing.add(v0);
+    drawing.add(v1);
+    drawing.remove(v0);
+
+    assertFalse(v0 == drawing.get(0));
+    assertTrue(v1 == drawing.get(0));
   }
 }
