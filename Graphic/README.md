@@ -77,9 +77,11 @@ Gegen 8:45 würde ich mich gern mit euch unter https://meet.jit.si/FIAE unterhal
   - Projekt clonen
 - Diskussion des gestrigen Tages
 - Observer Pattern
-- Verwendung des Observer Pattern in unserer Zeichnung
+- Selbständiges implementieren des Observer mit Hilfe des UML-Diagramms
 
 ![Observer](images/observer-pattern.png "UML-Diagramm Observer")
+- Verwendung des Observer Pattern in unserer Zeichnung
+
 - Nutzung von JUnit
   - [JUnit 5 User Guide](https://junit.org/junit5/docs/current/user-guide/)
 
