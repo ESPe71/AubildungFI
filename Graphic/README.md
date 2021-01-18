@@ -78,3 +78,21 @@ Gegen 8:45 würde ich mich gern mit euch unter https://meet.jit.si/FIAE unterhal
 
 - Diskussion und Verfeinerung des implementierten Observer Patterns unserer Zeichnung
 - Wiederholung der Woche
+
+
+## Tag 4
+
+#### Wochenaufgabe
+
+Es ist ein Kommandozeilentool zu erstellen, mit dem man die folgenden Operationen durchführen kann:
+- Neue Zeichnung erstellen
+- Grafikelemente erzeugen und zur Zeichnung hinzufügen
+- Grafikelemente aus der Zeichnung löschen
+- Grafikelemente als Text ausgeben
+- Zeichnung laden und speichern
+
+Heutiges Thema
+- Wiederholung der Vorwoche
+- Entwurf eines Menüsystems
+- Selbstständiges anlesen des State Patterns
+
