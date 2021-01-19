@@ -93,8 +93,8 @@ Es ist ein Kommandozeilentool zu erstellen, mit dem man die folgenden Operatione
 
 **Thema**
 - Wiederholung der Vorwoche
-- Entwurf eines Menüsystems
-![Menü](images/menue.png "Entwurf des Menüs")
+- Entwurf eines Menüsystems  
+![Menü](images/menue.png "Entwurf des Menüs")  
 [Menü von CodaCodalis](https://github.com/CodaCodalis/Graphic#tag-4)
 - Selbstständiges anlesen des State Patterns
 - Entwurf eines Menüsystems mit Hilfe von UML
@@ -102,4 +102,13 @@ Es ist ein Kommandozeilentool zu erstellen, mit dem man die folgenden Operatione
 - Implementierung des Menüs anhand des UML-Diagramms
 - Überschreiben der toString-Methode der Primitive, falls noch nicht geschehen
 
+
+**Stream-API**  
+Durcharbeiten der Kapitel zur Stream-API in dem Buch [Java ist auch eine Insel - 17 Datenströme](http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_17_010.htm) 
+insbesondere der Kapitel
+- [17.1 Stream-Klassen und Reader/Writer am Beispiel von Dateien](http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_17_001.htm)
+- [17.2 Basisklassen für die Ein-/Ausgabe](http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_17_002.htm)
+- [17.4.4 Mit »ByteArrayOutputStream« in ein Byte-Feld schreiben](http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_17_004.htm)
+- [17.4.5 Mit »ByteArrayInputStream« aus einem Byte-Feld lesen](http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_17_004.htm)
+- **[17.10 Persistente Objekte und Serialisierung](http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_17_010.htm)**
 
