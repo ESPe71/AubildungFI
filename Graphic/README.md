@@ -67,7 +67,7 @@ Gegen 8:45 würde ich mich gern mit euch unter https://meet.jit.si/FIAE unterhal
 - Observer Pattern
 - Selbständiges implementieren des Observer mit Hilfe des UML-Diagramms
 
-![Observer](images/observer-pattern.png "UML-Diagramm Observer")
+![Observer Pattern](images/observer-pattern.png "UML-Diagramm Observer")
 - Verwendung des Observer Pattern in unserer Zeichnung
 
 - Nutzung von JUnit
@@ -80,9 +80,9 @@ Gegen 8:45 würde ich mich gern mit euch unter https://meet.jit.si/FIAE unterhal
 - Wiederholung der Woche
 
 
-## Tag 4
+## Woche 2
 
-#### Wochenaufgabe
+#### Aufgabe
 
 Es ist ein Kommandozeilentool zu erstellen, mit dem man die folgenden Operationen durchführen kann:
 - Neue Zeichnung erstellen
@@ -91,8 +91,15 @@ Es ist ein Kommandozeilentool zu erstellen, mit dem man die folgenden Operatione
 - Grafikelemente als Text ausgeben
 - Zeichnung laden und speichern
 
-Heutiges Thema
+**Thema**
 - Wiederholung der Vorwoche
 - Entwurf eines Menüsystems
+![Menü](images/menue.png "Entwurf des Menüs")
+[Menü von CodaCodalis](https://github.com/CodaCodalis/Graphic#tag-4)
 - Selbstständiges anlesen des State Patterns
+- Entwurf eines Menüsystems mit Hilfe von UML
+![State Pattern](images/state-pattern-menu.png "UML-Diagramm State")
+- Implementierung des Menüs anhand des UML-Diagramms
+- Überschreiben der toString-Methode der Primitive, falls noch nicht geschehen
+
 
