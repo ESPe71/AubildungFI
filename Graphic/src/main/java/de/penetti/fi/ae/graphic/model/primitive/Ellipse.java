@@ -1,8 +1,10 @@
 package de.penetti.fi.ae.graphic.model.primitive;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Ellipse implements Primitive {
+public class Ellipse implements Primitive, Serializable {
+  private static final long serialVersionUID = 67192871236277490L;
   private Vector center;
   private double xRadius;
   private double yRadius;

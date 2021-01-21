@@ -1,8 +1,10 @@
 package de.penetti.fi.ae.graphic.model.primitive;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Vector implements Primitive {
+public class Vector implements Primitive, Serializable {
+  private static final long serialVersionUID = 7383765293120826047L;
   private double x;
   private double y;
 

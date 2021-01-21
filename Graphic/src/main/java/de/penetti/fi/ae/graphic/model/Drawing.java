@@ -2,13 +2,15 @@ package de.penetti.fi.ae.graphic.model;
 
 import de.penetti.fi.ae.graphic.model.primitive.Primitive;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-public class Drawing implements GraphicObservable {
+public class Drawing implements GraphicObservable, Serializable {
+  private static final long serialVersionUID = 5206291556477715957L;
   private final List<Primitive> primitives = new ArrayList<>();
-  private Collection<GraphicObserver> observers;
+  private transient Collection<GraphicObserver> observers;
 
   public int size() {
     return primitives.size();

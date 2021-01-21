@@ -97,18 +97,39 @@ Es ist ein Kommandozeilentool zu erstellen, mit dem man die folgenden Operatione
 ![Menü](images/menue.png "Entwurf des Menüs")  
 [Menü von CodaCodalis](https://github.com/CodaCodalis/Graphic#tag-4)
 - Selbstständiges anlesen des State Patterns
-- Entwurf eines Menüsystems mit Hilfe von UML
+- Entwurf eines Menüsystems mit Hilfe von UML  
 ![State Pattern](images/state-pattern-menu.png "UML-Diagramm State")
-- Implementierung des Menüs anhand des UML-Diagramms
+- Implementierung des Menüs anhand des UML-Diagramms  
+![Menü](images/umlmenu.png "UML-Diagramm Menü")  
+[Menü von nb-crypto](https://github.com/nb-crypto/Graphic#tag5)
 - Überschreiben der toString-Methode der Primitive, falls noch nicht geschehen
 
 
-**Stream-API**  
-Durcharbeiten der Kapitel zur Stream-API in dem Buch [Java ist auch eine Insel - 17 Datenströme](http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_17_010.htm) 
+**IO~~Stream~~-API**
+
+Stream-API in diesem Zusammenhang ist ein veralteter Begriff, da mit Java 8 und der Einführung mit Streams dieser Begriff missverständlich ist.
+Man benutzt hierfür nun nur noch, auch den zu dieser Zeit schon verwendeten Begriff, IO-API bzw. NIO-API.
+ 
+Durcharbeiten der Kapitel zur IO~~Stream~~-API in dem Buch [Java ist auch eine Insel - 17 Datenströme](http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_17_010.htm)  
+*(ACHTUNG: Dies ist nicht dieselbe Auflage wie oben genannt!)*  
 insbesondere der Kapitel
 - [17.1 Stream-Klassen und Reader/Writer am Beispiel von Dateien](http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_17_001.htm)
 - [17.2 Basisklassen für die Ein-/Ausgabe](http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_17_002.htm)
 - [17.4.4 Mit »ByteArrayOutputStream« in ein Byte-Feld schreiben](http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_17_004.htm)
 - [17.4.5 Mit »ByteArrayInputStream« aus einem Byte-Feld lesen](http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_17_004.htm)
 - **[17.10 Persistente Objekte und Serialisierung](http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_17_010.htm)**
+
+
+Implementierung der Laden- und Speichern-Funktionalität mit Hilfe der Java-Standard-Serialisierung
+
+- Lose Kopplung
+- Entwicklung gegen Schnittstellen
+- Austauschbarkeit von Implementierungen
+
+- Exceptions kurz angesprochen (ohne try-with-Resource)
+
+- Serializable: serialVersionUID und transient besprochen
+
+Selbstständiges fertigstellen der Implementierung der Anwendung.
+
 
