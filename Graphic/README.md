@@ -133,3 +133,28 @@ Implementierung der Laden- und Speichern-Funktionalität mit Hilfe der Java-Stan
 Selbstständiges fertigstellen der Implementierung der Anwendung.
 
 
+# Weitere Themen
+
+## Exeptions
+
+[Vortrag von Robert](https://github.com/CodaCodalis/Graphic/blob/master/resources/exceptions.pdf)
+
+## Input-/OutputStreams
+
+[Vortrag von Nils](https://github.com/nb-crypto/Graphic/blob/master/resources/presentations/Streams) (*.odp)
+
+## NIO
+
+- Path
+- Files
+- FileSystems
+- FileVisitor (SimpleFileVisitor)
+- WatchService
+- ZipFileSystem
+
+## Design Patterns
+
+- Decorator
+- Visitor
+- Factory
+ 
