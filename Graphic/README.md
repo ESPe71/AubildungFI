@@ -141,7 +141,7 @@ Selbstständiges fertigstellen der Implementierung der Anwendung.
 
 ## Input-/OutputStreams
 
-[Vortrag von Nils](https://github.com/nb-crypto/Graphic/blob/master/resources/presentations/Streams) (*.odp)
+[Vortrag von Nils](https://github.com/nb-crypto/Graphic/blob/master/resources/presentations/IOStream-ZipFile-URI-File-Decorator.pdf)
 
 ## NIO
 
