@@ -1,0 +1,20 @@
+{
+    "parameterSets": {
+        "Test": {
+            "$fn": "100",
+            "depth": "20",
+            "epsilon": "0.002",
+            "height": "40",
+            "print": "true",
+            "screwBolt": "5",
+            "screwDiameter": "2",
+            "screwLength": "10",
+            "screwSink": "true",
+            "screws": "true",
+            "thickness": "2",
+            "topTranslate": "0",
+            "width": "30"
+        }
+    },
+    "fileFormatVersion": "1"
+}
