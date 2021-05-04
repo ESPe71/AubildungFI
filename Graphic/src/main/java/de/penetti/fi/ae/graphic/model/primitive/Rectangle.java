@@ -1,8 +1,10 @@
 package de.penetti.fi.ae.graphic.model.primitive;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Rectangle implements Primitive {
+public class Rectangle implements Primitive, Serializable {
+  private static final long serialVersionUID = 64764476060640452L;
   private Vector origin;
   private double width;
   private double height;
