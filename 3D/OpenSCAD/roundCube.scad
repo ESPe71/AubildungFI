@@ -1,20 +1,4 @@
-$fn = 50;
-
-//intersection() {
-//  cube(50, center = true);
-//  sphere(d = 65);
-//}
-
-
-//cube([50, 5, 47.5]);
-//translate([0, 2.5, 47.5])
-//  sphere(2.5);
-//translate([50, 2.5, 47.5])
-//  sphere(2.5);
-//translate([0, 2.5, 47.5])
-//  rotate([0, 90, 0])
-//    cylinder(50, 2.5, 2.5);
-  
+$fn=50;
 
 roundCube();  
     
